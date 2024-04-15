@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Bfmini</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.alsa-sharp.dll.compressed" />
+    <None Remove="costura.alsa-sharp.pdb.compressed" />
+    <None Remove="costura.commons.music.midi.dll.compressed" />
+    <None Remove="costura.commons.music.midi.pdb.compressed" />
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.hotkeycontrol.dll.compressed" />
+    <None Remove="costura.hotkeycontrol.pdb.compressed" />
+    <None Remove="costura.hotkeymanagement.dll.compressed" />
+    <None Remove="costura.htmlrenderer.dll.compressed" />
+    <None Remove="costura.machina.dll.compressed" />
+    <None Remove="costura.machina.ffxiv.dll.compressed" />
+    <None Remove="costura.melanchall.drywetmidi.dll.compressed" />
+    <None Remove="costura.mugene.exe.compressed" />
+    <None Remove="costura.mugene.pdb.compressed" />
+    <None Remove="costura.mugenelib.dll.compressed" />
+    <None Remove="costura.mugenelib.pdb.compressed" />
+    <None Remove="costura.newtonsoft.json.dll.compressed" />
+    <None Remove="costura.overlayplugin.common.dll.compressed" />
+    <None Remove="costura.pagedcontrol.dll.compressed" />
+    <None Remove="costura.tungsten.firewall.dll.compressed" />
+    <None Remove="costura.xilium.cefglue.dll.compressed" />
+    <EmbeddedResource Include="costura.alsa-sharp.dll.compressed" LogicalName="costura.alsa-sharp.dll.compressed" />
+    <EmbeddedResource Include="costura.alsa-sharp.pdb.compressed" LogicalName="costura.alsa-sharp.pdb.compressed" />
+    <EmbeddedResource Include="costura.commons.music.midi.dll.compressed" LogicalName="costura.commons.music.midi.dll.compressed" />
+    <EmbeddedResource Include="costura.commons.music.midi.pdb.compressed" LogicalName="costura.commons.music.midi.pdb.compressed" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.hotkeycontrol.dll.compressed" LogicalName="costura.hotkeycontrol.dll.compressed" />
+    <EmbeddedResource Include="costura.hotkeycontrol.pdb.compressed" LogicalName="costura.hotkeycontrol.pdb.compressed" />
+    <EmbeddedResource Include="costura.hotkeymanagement.dll.compressed" LogicalName="costura.hotkeymanagement.dll.compressed" />
+    <EmbeddedResource Include="costura.htmlrenderer.dll.compressed" LogicalName="costura.htmlrenderer.dll.compressed" />
+    <EmbeddedResource Include="costura.machina.dll.compressed" LogicalName="costura.machina.dll.compressed" />
+    <EmbeddedResource Include="costura.machina.ffxiv.dll.compressed" LogicalName="costura.machina.ffxiv.dll.compressed" />
+    <EmbeddedResource Include="costura.melanchall.drywetmidi.dll.compressed" LogicalName="costura.melanchall.drywetmidi.dll.compressed" />
+    <EmbeddedResource Include="costura.mugene.exe.compressed" LogicalName="costura.mugene.exe.compressed" />
+    <EmbeddedResource Include="costura.mugene.pdb.compressed" LogicalName="costura.mugene.pdb.compressed" />
+    <EmbeddedResource Include="costura.mugenelib.dll.compressed" LogicalName="costura.mugenelib.dll.compressed" />
+    <EmbeddedResource Include="costura.mugenelib.pdb.compressed" LogicalName="costura.mugenelib.pdb.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" LogicalName="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.overlayplugin.common.dll.compressed" LogicalName="costura.overlayplugin.common.dll.compressed" />
+    <EmbeddedResource Include="costura.pagedcontrol.dll.compressed" LogicalName="costura.pagedcontrol.dll.compressed" />
+    <EmbeddedResource Include="costura.tungsten.firewall.dll.compressed" LogicalName="costura.tungsten.firewall.dll.compressed" />
+    <EmbeddedResource Include="costura.xilium.cefglue.dll.compressed" LogicalName="costura.xilium.cefglue.dll.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WindowsBase" />
+    <Reference Include="OverlayPlugin.Common" />
+    <Reference Include="HtmlRenderer" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xilium.CefGlue" />
+    <Reference Include="HotkeyManagement" />
+    <Reference Include="HotkeyControl" />
+    <Reference Include="Machina.FFXIV" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="Melanchall.DryWetMidi" />
+    <Reference Include="mugenelib" />
+    <Reference Include="System.Core" />
+    <Reference Include="Machina" />
+    <Reference Include="Commons.Music.Midi" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FNf4Vq1wvNn+vC7r7+cBJgv1PwDtyGMJRt8CMcef7soo1enRR/u7Xolf8zITOUy77v13lBqP9R8ErhZQ1dOqWA==",
+  "success": true,
+  "projectFilePath": "D:\\zhuangxiu\\2\\Bfmini.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LDZ\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\LDZ\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
